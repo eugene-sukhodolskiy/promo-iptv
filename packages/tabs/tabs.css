@@ -1,0 +1,12 @@
+.tabs-item{
+    display: none;
+}
+
+.tab-active{
+    display: block;
+}
+
+.tab-switcher-active{
+    background-color: orange;
+    color: white;
+}

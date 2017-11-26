@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Purchasing</title>
+    <div data-include="packages/app/layouts/link.html"></div>
+    
+    <script type="text/javascript" src="packages/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="packages/ifinpnoempty/ifinpnoempty.js"></script>
+    <script type="text/javascript" src="packages/tabs/tabs.js"></script>
+    <script type="text/javascript" src="packages/slick/slick.min.js"></script>
+    <script type="text/javascript" src="packages/li-landing/li-landing.js"></script>
+    <script type="text/javascript" src="packages/malihu-castom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="packages/type-number/type-number.js"></script>
+    <script type="text/javascript" src="packages/lay.js/lay.js"></script>
+    <script type="text/javascript" src="packages/app/js/inverse.js"></script>
+    <script type="text/javascript" src="packages/app/js/app.js"></script>
+</head>
+<body>
+   
+    <div data-include="packages/app/layouts/header.html" data-callback="header"></div>
+    
+    <div class="container purchasing-page">
+        <div class="switchers grid">
+            <div class="tab-switcher" data-tab-id="reg">
+                <span class="tab-num" data-read="ltr">1</span>
+                <span class="tab-title">Registration</span>
+                <span class="tab-num" data-read="rtl">1</span>
+            </div>
+            <div class="tab-switcher" data-tab-id="bundle">
+                <span class="tab-num" data-read="ltr">2</span>
+                <span class="tab-title">Choose Bundle</span>
+                <span class="tab-num" data-read="rtl">2</span>
+            </div>
+            <div class="tab-switcher" data-tab-id="packs">
+                <span class="tab-num" data-read="ltr">3</span>
+                <span class="tab-title">Add Packs</span>
+                <span class="tab-num" data-read="rtl">3</span>
+            </div>
+            <div class="tab-switcher" data-tab-id="purchasing">
+                <span class="tab-num" data-read="ltr">4</span>
+                <span class="tab-title">Purchasing</span>
+                <span class="tab-num" data-read="rtl">4</span>
+            </div>
+        </div>
+        
+        <div class="tabs">
+           
+            <div data-include="packages/app/pages/purchasing/reg.html"></div>
+            <div data-include="packages/app/pages/purchasing/bundle.html" data-callback="bundle"></div>
+            <div data-include="packages/app/pages/purchasing/packs.html"></div>
+            <div data-include="packages/app/pages/purchasing/purchasing.html" data-callback="purchasing"></div>
+            
+        </div>
+        
+    </div>
+    
+    <div data-include="packages/app/layouts/footer.html"></div>
+    
+</body>
+</html>

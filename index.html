@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home TV</title>
+    <div data-include="packages/app/layouts/link.html"></div>
+    
+    <script type="text/javascript" src="packages/jquery/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="packages/slick/slick.min.js"></script>
+    <script type="text/javascript" src="packages/ifinpnoempty/ifinpnoempty.js"></script>
+    <script type="text/javascript" src="packages/li-landing/li-landing.js"></script>
+    <script type="text/javascript" src="packages/malihu-castom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="packages/type-number/type-number.js"></script>
+    <script type="text/javascript" src="packages/lay.js/lay.js"></script>
+    <script type="text/javascript" src="packages/app/js/inverse.js"></script>
+    <script type="text/javascript" src="packages/app/js/app.js"></script>
+</head>
+<body>
+    
+    <div data-include="packages/app/layouts/header.html" data-callback="header"></div>
+    
+    <a href="#" class="trial-label">
+        <img src="./packages/app/imgs/trial-label.png" alt="">
+    </a>
+    
+    <div class="vertical-indicators">
+        <ul class="vertical-indicators-list">
+            <li class="vertical-indicator-item">
+                <a href="#home" class="l-page"></a>
+            </li>
+            <li class="vertical-indicator-item">
+                <a href="#movies" class="l-page"></a>
+            </li>
+            <li class="vertical-indicator-item">
+                <a href="#channels" class="l-page"></a>
+            </li>
+            <li class="vertical-indicator-item">
+                <a href="#series" class="l-page"></a>
+            </li>
+            <li class="vertical-indicator-item">
+                <a href="#news" class="l-page"></a>
+            </li>
+        </ul>
+    </div>
+    
+    <a href="#" class="next-page-down l-page"></a>
+    
+    <div data-include="packages/app/pages/home.html" data-callback="home"></div>
+    <div class="angle-background bottom-background"></div>
+    <div data-include="packages/app/pages/movies.html"></div>
+    <div class="angle-background bottom-background"></div>
+    <div data-include="packages/app/pages/channels.html" data-callback="channels"></div>
+    <div class="angle-background bottom-background"></div>
+    <div data-include="packages/app/pages/series.html"></div>
+    <div class="angle-background bottom-background"></div>
+    <div data-include="packages/app/pages/news.html"></div>
+    <div data-include="packages/app/layouts/footer.html"></div>
+    
+</body>
+</html>

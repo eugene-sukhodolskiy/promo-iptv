@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>My account</title>
+        <div data-include="packages/app/layouts/link.html"></div>
+
+        <script type="text/javascript" src="packages/jquery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="packages/tabs/tabs.js"></script>
+        <script type="text/javascript" src="packages/slick/slick.min.js"></script>
+        <script type="text/javascript" src="packages/li-landing/li-landing.js"></script>
+        <script type="text/javascript" src="packages/malihu-castom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="packages/type-number/type-number.js"></script>
+        <script type="text/javascript" src="packages/ifinpnoempty/ifinpnoempty.js"></script>
+        <script type="text/javascript" src="packages/lay.js/lay.js"></script>
+        <script type="text/javascript" src="packages/app/js/inverse.js"></script>
+        <script type="text/javascript" src="packages/app/js/app.js"></script>
+    </head>
+    <body>
+        <div data-include="packages/app/layouts/header.html" data-callback="header"></div>
+    
+    <div class="single-page" id="my-account">
+        <div class="container">
+            <div class="single-page-title">My account</div>
+            <div class="grid account-grid">
+                <div class="grid-item deposite"><sup>Deposite:</sup> $10</div>
+                <div class="grid-item">
+                    <button class="btn btn-orange add-money">Add money</button>
+                </div>
+                <div class="grid-item edit-ac-details">
+                    <a href="#" class="edit-ac-details-link">Edit account details</a>
+                </div>
+            </div>
+            <table class="bundles-and-packs">
+                <caption>Bundles and Packs</caption>
+                <thead>
+                    <tr>
+                        <th>Bundles</th>
+                        <th>Packs</th>
+                        <th>From date</th>
+                        <th>To date</th>
+                        <th>Payment</th>
+                        <th>Renew Subscr.</th>
+                        <th>Price ($)</th>
+                        <th>Details</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Family</td>
+                        <td></td>
+                        <td>12.06.2017</td>
+                        <td>12.07.2017</td>
+                        <td>PayGol</td>
+                        <td><img src="packages/app/imgs/check-true.png" alt=""></td>
+                        <td>30.90</td>
+                        <td><a href="./details.html" class="details">Details<i class="info-icon"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Kids</td>
+                        <td>12.06.2017</td>
+                        <td>12.07.2017</td>
+                        <td>PayGol</td>
+                        <td><img src="packages/app/imgs/check-true.png" alt=""></td>
+                        <td>0.00</td>
+                        <td><a href="./details.html" class="details">Details<i class="info-icon"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>Idan plan</td>
+                        <td>12.06.2017</td>
+                        <td>12.07.2017</td>
+                        <td>PayGol</td>
+                        <td><img src="packages/app/imgs/check-false.png" alt=""></td>
+                        <td>0.00</td>
+                        <td><a href="./details.html" class="details">Details<i class="info-icon"></i></a></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="7">
+                            <div class="total">
+                                <strong>Total 30.90</strong>
+                            </div>
+                        </td>
+                        <td>
+                            
+                        </td>
+                    </tr>
+                </tfoot>
+            </table>
+            <button class="btn btn-orange add-money cart">Cart</button>
+            
+            <table class="invoice">
+                <caption>Invoice</caption>
+                <thead>
+                    <tr>
+                        <th>N</th>
+                        <th>Date</th>
+                        <th>Doc. type</th>
+                        <th>Invoice number</th>
+                        <th>Price ($)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>12.07.2017</td>
+                        <td>Recite</td>
+                        <td><a href="#" class="details invoice-number">Invoice Number 1024<i class="info-icon"></i></a></td>
+                        <td>30.90</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>12.07.2017</td>
+                        <td>0</td>
+                        <td><a href="#" class="details invoice-number">Invoice Number 1024<i class="info-icon"></i></a></td>
+                        <td>0.00</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>12.07.2017</td>
+                        <td>Recite</td>
+                        <td><a href="#" class="details invoice-number">Invoice Number 1024<i class="info-icon"></i></a></td>
+                        <td>0.00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button class="btn btn-orange add-money cart">Cart</button>
+        </div>
+    </div>
+    
+        <div data-include="packages/app/layouts/footer.html"></div>
+
+    
+</body>
+</html>

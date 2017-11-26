@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Details</title>
+        <div data-include="packages/app/layouts/link.html"></div>
+
+        <script type="text/javascript" src="packages/jquery/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="packages/tabs/tabs.js"></script>
+        <script type="text/javascript" src="packages/slick/slick.min.js"></script>
+        <script type="text/javascript" src="packages/li-landing/li-landing.js"></script>
+        <script type="text/javascript" src="packages/malihu-castom-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+        <script type="text/javascript" src="packages/type-number/type-number.js"></script>
+        <script type="text/javascript" src="packages/ifinpnoempty/ifinpnoempty.js"></script>
+        <script type="text/javascript" src="packages/lay.js/lay.js"></script>
+        <script type="text/javascript" src="packages/app/js/inverse.js"></script>
+        <script type="text/javascript" src="packages/app/js/app.js"></script>
+    </head>
+    <body>
+
+        <div data-include="packages/app/layouts/header.html" data-callback="header"></div>
+   
+   <div class="single-page" id="details">
+       <div class="container">
+           <div class="single-page-title">Details</div>
+           <table class="details-table">
+               <thead>
+                   <tr>
+                       <th class="details-table-bundle">Bundle/Pack</th>
+                       <th class="details-table-price">Price</th>
+                       <th class="details-table-period">Period</th>
+                       <th class="details-table-tax">Tax (%)</th>
+                       <th class="details-table-subtotal">Subtotal</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td class="details-table-bundle">Basic</td>
+                       <td class="details-table-price">$5</td>
+                       <td class="details-table-period">14 days</td>
+                       <td class="details-table-tax">0.05</td>
+                       <td class="details-table-subtotal">$2.41</td>
+                   </tr>
+                   <tr>
+                       <td class="details-table-bundle">Kids</td>
+                       <td class="details-table-price">$10</td>
+                       <td class="details-table-period">14 days</td>
+                       <td class="details-table-tax">0.03</td>
+                       <td class="details-table-subtotal">$4.83</td>
+                   </tr>
+                   <tr>
+                       <td class="details-table-bundle">Sport</td>
+                       <td class="details-table-price">$20</td>
+                       <td class="details-table-period">14 days<br><small>(no less than full month)</small></td>
+                       <td class="details-table-tax">0.03</td>
+                       <td class="details-table-subtotal">$29.58</td>
+                   </tr>
+               </tbody>
+           </table>
+           <div class="details-price-total" data-read="ltr">
+               <sup>Total</sup> 36,82
+           </div>
+           <div class="details-price-total" data-read="rtl">
+               36,82 <sup>Total</sup>
+           </div>
+       </div>
+   </div>
+   
+        <div data-include="packages/app/layouts/footer.html"></div>
+    
+</body>
+</html>

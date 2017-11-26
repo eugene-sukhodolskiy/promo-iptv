@@ -1,0 +1,738 @@
+body{
+    text-transform: lowercase !important;
+}
+
+.page-title{
+    margin-left: 0;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.header,
+.brand-logo,
+.lang-panel,
+.slick-carousel,
+.header-navigation,
+.channels-carousel,
+.account-nav,
+.btn-login,
+.lang-popup,
+.channels-group-grid,
+.channel-item,
+.products-grid,
+.channels-box-example .slick-slide,
+.channels-box-example,
+.channels-box-details{
+    transform: scale(-1, 1);
+}
+
+#remmember-me{
+    position: relative;
+    margin-left: -14px;
+    left: 15px;
+    top: 3px;
+}
+
+.lp-content,
+.lp-links,
+.mob-menu-nav li{
+    text-align: right;
+}
+
+#home .page-title {
+    left: auto;
+    right: 1%;
+    text-align: right;
+}
+
+#home .page-title .sub-title{
+    padding-right: 155px;
+    padding-left: 0;
+}
+
+#home .page-title .sub-title span{
+    margin-right: 200px;
+    margin-left: 0;
+}
+
+.trial-label{
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: -290px;
+}
+
+.tl-small {
+    margin-right: -250px;
+}
+
+.vertical-indicators {
+    margin-left: 0;
+    left: auto;
+    right: 100%;
+    margin-right: -45px;
+}
+
+.bottom-background,
+.footer-background{
+    transform: skewY(2deg);
+}
+
+.meta-info{
+    text-align: right;
+}
+
+.product-about,
+.product-title{
+    margin-left: 0;
+    margin-right: 20px;
+}
+
+.products-item{
+    transform: scale(-0.85,0.85);
+}
+
+/*
+.channels-carousel{
+    margin-left: -303px;
+}
+*/
+
+.lp-content .form-field{
+    padding-right: 28px;
+    padding-left: 0;
+    text-align: right;
+}
+
+.btn-login{
+     margin: 0; 
+}
+
+.mob-login-form {
+    left: 100%;
+    margin-left: -184px;
+}
+
+.mobile-menu-close{
+    left: 95%;
+    margin-left: -30px;
+}
+
+.mobile-menu{
+    left: 100%;
+}
+
+#news .article-list {
+    margin-right: 0px;
+    margin-left: 0;
+    padding-left: 5%;
+}
+
+#news article{
+    text-align: right;
+    margin-left: 0;
+    margin-right: 146px;
+}
+
+#news .article-date{
+    margin-left: 27px;
+    float: right;
+    margin-right: 0;
+    text-align: right;
+}
+
+#news .date-month-day{
+    border: 0;
+    border-left: 1px solid #999999;
+}
+
+#news .date-year{
+    left: 133px;
+}
+
+.products-grid{
+    margin-left: 5%;
+}
+
+.lang-popup{
+    text-align: right;
+    padding-right: 8px;
+    padding-left: 0px;
+}
+
+.single-page-title,
+.details-table{
+    text-align: right;
+}
+
+.details-table th, .details-table td{
+    padding-left: 1px;
+    padding-right: 18px;
+}
+
+.details-price-total{
+    text-align: left;
+    margin-left: 10%;
+}
+
+#about article{
+    text-align: right;
+}
+
+.search-form-container{
+    text-align: right;
+}
+
+#help .search-form{
+    text-align: right;
+    padding-left: 0;
+    padding-right: 28px;
+}
+
+.search-btn{
+    transform: scale(-1,1);
+    left: auto;
+}
+
+.no-found{
+    right: 20px;
+}
+
+.question{
+    text-align: right;
+    margin-left: 0;
+    margin-right: 35px;
+}
+
+.question:before{
+    margin: 0;
+    position: relative;
+    left: 100%;
+    top: 16px;
+    transform: scale(-1,1);
+    transform-origin: center;
+}
+
+.question.fade-in:before{
+    border-left-color: transparent;
+    border-top-color: black;
+    transform: scale(-1,1);
+    margin-left: 5px;
+}
+
+.answer{
+    text-align: right;
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.tab-switcher{
+    text-align: right;
+}
+
+.tab-num{
+    margin-right: 17px;
+    margin-left: 0;
+}
+
+.tab-switcher .tab-title{
+    text-transform: lowercase;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.form-field{
+    text-align: right;
+    padding-right: 28px;
+    padding-left: 0;
+    text-transform: lowercase;
+}
+
+.captcha-field{
+    left: -218px;
+}
+
+.captcha-question{
+    position: relative;
+    left: 109px;
+    text-align: right;
+}
+
+.captcha-question strong{
+    position: relative;
+    right: 6px;
+}
+
+#reg,
+.btn{
+    text-transform: lowercase;
+}
+
+#reg .verification-label{
+    padding-right: 18px;
+    text-align: right;
+    padding-left: 0;
+}
+
+#reg .tab-item-checkbox {
+    margin-right: 18px;
+    margin-left: 0;
+    text-align: right;
+}
+
+#reg .tab-item-checkbox input{
+    position: relative;
+    left: 242px;
+    top: 2px;
+}
+
+#reg .tab-item-checkbox label{
+    position: relative;
+    right: 20px;
+}
+
+.bundle-title{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.bundle-price{
+    margin: 10px 0px 0px 0;
+}
+
+.channels-packs li,
+.bundle-description,
+.tabs-item .grid-item-title,
+#packs .channels-box-add,
+.channels-box-title,
+.channels-box-note{
+    text-align: right;
+}
+
+.bundle-card-active:before{
+    border-right: 35px solid #fe6700;
+    border-bottom-color: transparent;
+    margin: -35px 0px 0px -59px;
+}
+
+.bundle-card.bundle-card-active:after{
+    margin: -290px 0px 0px -22px;
+}
+
+#packs .channels-box-add span{
+    left: -39px;
+}
+
+#packs .channels-box-add{
+    border-radius: 20px 0px 0px 20px;
+    margin: 10px 0px 0px 200px;
+}
+
+#packs .channels-number-inp{
+    margin: 10px 0px 0px 160px;
+}
+
+.channels-box-title,
+.channels-box-note{
+    margin-right: 72px;
+    margin-left: 0;
+}
+
+.channels-box-price{
+    text-align: left;
+    margin: 14px 0px 0px 15px;
+}
+
+.channels-number-inp{
+    margin: 10px 0px 0px 160px;
+}
+
+#packs .tv-box-users .channels-box-title {
+    margin-left: 44px;
+    width: 100px;
+}
+
+.selected-bundle{
+    order: 4;
+}
+
+.more-content{
+    order: 3;
+}
+
+.tv-box-users{
+    order: 2;
+}
+
+.payment{
+    order: 1;
+}
+
+.payment-price-val{
+    text-align: left;
+}
+
+.payment-price-name,
+.payment{
+    text-align: right;
+}
+
+.payment-cards-item input{
+    position: relative;
+    left: 50px;
+}
+
+.payment-cards-item label{
+    position: relative;
+    right: 23px;
+}
+
+.tabs-item .grid-item-title{
+    width: 260px;
+}
+
+.payment .grid-item-title{
+    width: auto;
+}
+
+.selected-bundle .grid-item-title{
+    position: relative;
+    right: 20px;
+}
+
+.channels-box-btn-minus{
+    position: relative;
+    left: 70px;
+}
+
+.channels-box-btn-plus{
+    position: relative;
+    left: -70px;
+}
+
+.channels-box-details{
+    margin-left: 14px;
+}
+
+.channels-box-example{
+    margin-left: 42px;
+}
+
+.bundle-edit-link a{
+    text-transform: lowercase;
+}
+
+#my-account table caption {
+    text-align: right;
+    transform: scale(-1,1);
+}
+
+#my-account table{
+    text-align: right;
+    transform: scale(-1,1);
+}
+
+#my-account table th,
+#my-account table td{
+    transform: scale(-1,1);
+}
+
+.cart{
+    margin-left: 0;
+    left: 11%;
+}
+
+.bundles-and-packs .total{
+    padding-left: 60px;
+}
+
+.bundles-and-packs tfoot td {
+    text-align: left;
+}
+
+.account-grid,
+.deposite,
+.account-grid .add-money{
+    transform: scale(-1,1);
+}
+
+.deposite{
+    position: relative;
+    left: 30px;
+}
+
+.deposite sup{
+    position: relative;
+    left: 170px;
+}
+
+.edit-ac-details-link{
+    width: 165px;
+    left: 430px;
+}
+
+@media (max-width: 1170px){
+    
+    .trial-label {
+        margin-right: -275px;
+    }
+    
+    .tl-small {
+        margin-right: -190px;
+    }
+    
+    .bundles-and-packs .total{
+        padding-left: 90px;
+    }
+}
+
+@media (max-width: 1056px){
+    .selected-bundle{
+        order: 3;
+    }
+
+    .more-content{
+        order: 2;
+    }
+
+    .tv-box-users{
+        order: 1;
+    }
+
+    .payment{
+        order: 4;
+    }
+}
+
+@media (max-width: 900px){
+    .more {
+        right: 20px;
+        left: auto;
+    }
+    
+    #my-account .cart {
+         margin-left: 0; 
+    }
+}
+
+@media (max-width: 869px){
+    .no-found{
+        top: 58px;
+        right: 5%;
+    }
+    
+    .qa{
+        position: relative;
+        top: 15px;
+    }
+}
+
+@media (max-width: 796px){
+    .selected-bundle{
+        order: 2;
+    }
+
+    .more-content{
+        order: 1;
+    }
+
+    .tv-box-users{
+        order: 4;
+    }
+
+    .payment{
+        order: 3;
+    }
+}
+
+@media (max-width: 760px){
+    .brand-logo {
+        transform: scale(-0.7, 0.7);
+    }
+    
+    .mobile-menu .brand-logo{
+        transform: scale(0.7);
+        top: 5px;
+        margin-left: -12px;
+        left: 5%;
+    }
+    
+    #home .page-title{
+        margin-left: 0;
+        margin-right: -105px;
+        width: 600px;
+    }
+    
+    .trial-label {
+        margin-right: -190px;
+    }
+    
+    .products-grid{
+        margin-left: 5%;
+    }
+    
+    .bundles-and-packs .total{
+        padding-left: 120px;
+    }
+    
+}
+
+@media (max-width: 586px){
+    #my-account .cart{
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 536px){
+    .selected-bundle{
+        order: 1;
+    }
+
+    .more-content{
+        order: 2;
+    }
+
+    .tv-box-users{
+        order: 3;
+    }
+
+    .payment{
+        order: 4;
+    }
+}
+
+@media (max-width: 440px){
+    .trial-label {
+        margin-right: -180px;
+    }
+    
+    .tl-small {
+        margin-right: -140px;
+    }
+    
+    .more {
+        right: -10px;
+        left: auto;
+    }
+    
+    #news .article-list{
+        margin-right: 20px;
+    }
+    
+    #news .article-item{
+        text-align: right;
+    }
+    
+    #news .article-date{
+        display: inline-block;
+    }
+    
+    #news article{
+        position: relative;
+        left: 48px;
+    }
+    
+    .social-links,
+    .footer-nav{
+        transform: scale(-1,1);
+    }
+    
+    #footer .container{
+        transform: scale(-1,1);
+    }
+    
+    .footer-nav-links li,
+    .social-links ul.grid li{
+        text-align: right;
+    }
+    
+    .footer-nav-links li {
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    
+    .social-links{
+        position: relative;
+        left: 20px;
+    }
+    
+    .products-grid{
+        margin-left: 3%;
+    }
+    
+    .channels-carousel{
+        margin-left: -290px;
+        transform: scale(-0.7, 0.7);
+    }
+    
+    .tabs-item .grid-item {
+        margin: auto;
+    }
+    
+    .trial-label {
+        margin-right: -160px;
+        top: 11%;
+    }
+    
+    #my-account .cart{
+        margin-left: 0;
+        left: 0;
+    }
+    
+    #my-account .bundles-and-packs .total{
+        left: 0px;
+    }
+    
+    #my-account .bundles-and-packs{
+        transform: scale(-0.55,0.55);
+    }
+    
+    .deposite{
+        left: -105px;
+    }
+    
+    .edit-ac-details{
+        transform: scale(-1,1);
+    }
+    
+    .edit-ac-details-link{
+        left: -190px;
+    }
+}
+
+@media screen and (max-device-width: 900px) and (orientation: landscape){
+    
+    .mob-login-form {
+         left: 40px; 
+         margin-left: 0; 
+        top: -21px;
+    }
+    
+    .channels-carousel{
+        margin-left: -290px;
+        transform: scale(-0.7, 0.7);
+    }
+    
+    .edit-ac-details{
+        transform: scale(-1,1);
+    }
+    
+    .edit-ac-details-link{
+        left: -430px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+#home .page-title{
+    position: absolute;
+    top: 20%;
+    left: 1%;
+    z-index: 10;
+    line-height: 70px;
+}
+
+#home .page-title .title{
+    color: #4d4d4d;
+    font-family: 'MyCambria';
+}
+
+#home .page-title .sub-title{
+    font-family: 'Cambria';
+    color: #fe6700;
+    padding-left: 155px;
+}
+
+#home .page-title .sub-title span{
+    margin-left: 200px;
+    font-family: inherit;
+}
+
+#home .page-title .sub-title,
+#home .page-title .title,
+.page-title .title{
+    font-size: 70px;
+}

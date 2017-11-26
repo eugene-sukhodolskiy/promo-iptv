@@ -1,0 +1,33 @@
+#channels{
+    background-image: url(../imgs/channels-background.jpg);
+    background-position: center -64px;
+    background-repeat: no-repeat;
+    max-height: 1124px;
+    min-height: 800px !important;
+}
+
+#channels .page-title .title{
+    color: #fe6700;
+}
+
+#channels .container{
+    padding-top: 130px;
+}
+
+.channels-grid{
+    grid-template-columns: repeat(auto-fill, minmax(69px, 1fr));
+    grid-gap: 70px;
+}
+
+.channels-carousel{
+    width: 545px;
+    height: 300px;
+    position: absolute;
+    left: 50%;
+    margin-left: -272px;
+    margin-top: 136px;
+}
+
+.empty{
+    min-height: inherit;
+}

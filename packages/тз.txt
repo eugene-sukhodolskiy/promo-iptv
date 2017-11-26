@@ -1,0 +1,9 @@
+-login block to mob menu + 
+-page auto scrolling ?
+-links to all pages +
+-form remember pass +
+-page help +
+-remake position method login form in header +
+-translate switchers to another btns in purchasing +
+-make page succesful for purchasing
+-make preloader +
